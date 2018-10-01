@@ -9,7 +9,7 @@ button {
     text-align: center;
     text-decoration: none;
 }
-button:hover {
+.EditorMenu button:hover {
     background-color: #f92672;
 }
 
