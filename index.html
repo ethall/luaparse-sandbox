@@ -25,19 +25,19 @@
         <div class="Dropdown" id="dd-main">
             <button class="Dropdown-Button">Options</button>
             <div class="Dropdown-Content" id="dd-content-main">
-                <button class="Option" id="opt-comments" value="true">Comments</button>
-                <button class="Option" id="opt-x-ids" onclick="toggleOption(2)" onmouseover="doHighlight(this)" onmouseout="doHighlightReset(this)">Extended Identifiers</button>
-                <button class="Option" id="opt-locations" onclick="toggleOption(3)" onmouseover="doHighlight(this)" onmouseout="doHighlightReset(this)">Locations</button>
+                <button class="Option" id="opt-comments" value="true" onclick="toggleOption(this)" onmouseover="doHighlight(this)" onmouseout="doHighlightReset(this)">Comments</button>
+                <button class="Option" id="opt-x-ids" value="" onclick="toggleOption(this)" onmouseover="doHighlight(this)" onmouseout="doHighlightReset(this)">Extended Identifiers</button>
+                <button class="Option" id="opt-locations" value="true" onclick="toggleOption(this)" onmouseover="doHighlight(this)" onmouseout="doHighlightReset(this)">Locations</button>
                 <div class="Dropdown" id="dd-child">
                     <button class="Dropdown-Button">Lua Version</button>
                     <div class="Dropdown-Content" id="dd-content-child">
-                        <button class="Option" id="opt-v51" onclick="toggleOption(4, 1)" onmouseover="doHighlight(this)" onmouseout="doHighlightReset(this)">5.1</button>
-                        <button class="Option" id="opt-v52" onclick="toggleOption(4, 2)" onmouseover="doHighlight(this)" onmouseout="doHighlightReset(this)">5.2</button>
-                        <button class="Option" id="opt-v53" onclick="toggleOption(4, 3)" onmouseover="doHighlight(this)" onmouseout="doHighlightReset(this)">5.3</button>
+                        <button class="Option" id="opt-v51" value="true" onclick="toggleOption(this)" onmouseover="doHighlight(this)" onmouseout="doHighlightReset(this)">5.1</button>
+                        <button class="Option" id="opt-v52" value="" onclick="toggleOption(this)" onmouseover="doHighlight(this)" onmouseout="doHighlightReset(this)">5.2</button>
+                        <button class="Option" id="opt-v53" value="" onclick="toggleOption(this)" onmouseover="doHighlight(this)" onmouseout="doHighlightReset(this)">5.3</button>
                     </div>
                 </div>
-                <button class="Option" id="opt-ranges" onclick="toggleOption(5)" onmouseover="doHighlight(this)" onmouseout="doHighlightReset(this)">Ranges</button>
-                <button class="Option" id="opt-scope" onclick="toggleOption(6)" onmouseover="doHighlight(this)" onmouseout="doHighlightReset(this)">Scope</button>
+                <button class="Option" id="opt-ranges" value="true" onclick="toggleOption(this)" onmouseover="doHighlight(this)" onmouseout="doHighlightReset(this)">Ranges</button>
+                <button class="Option" id="opt-scope" value="true" onclick="toggleOption(this)" onmouseover="doHighlight(this)" onmouseout="doHighlightReset(this)">Scope</button>
             </div>
         </div>
         <div class="Status">
